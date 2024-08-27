@@ -144,7 +144,7 @@ geom_vline(xintercept = c(-log2(1.5), log2(1.5)), linetype = 2) +
     xmin = 5, 
     xmax = 1,
     ymin = 35,
-    ymax = 35            #高度需要调整
+    ymax = 35            
   ) +
   annotation_custom(
     grob = grid::textGrob(
